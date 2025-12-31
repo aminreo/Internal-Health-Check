@@ -1,0 +1,32 @@
+[
+    {
+        "name": "GitHub API",
+        "url": "https://api.github.com",
+        "description": "Standard REST API - should be UP."
+    },
+    {
+        "name": "Google Search",
+        "url": "https://www.google.com",
+        "description": "Public web search - should be UP."
+    },
+    {
+        "name": "HttpBin Success",
+        "url": "https://httpbin.org/status/200",
+        "description": "Testing service that returns a guaranteed 200 OK."
+    },
+    {
+        "name": "HttpBin Failure",
+        "url": "https://httpbin.org/status/500",
+        "description": "Testing service that returns a 500 Error - should be DOWN."
+    },
+    {
+        "name": "Slow Service",
+        "url": "https://httpbin.org/delay/5",
+        "description": "Takes 5 seconds to respond - test your timeout handling here."
+    },
+    {
+        "name": "Non Existent Service",
+        "url": "https://this.is.not.a.real.domain.xyz",
+        "description": "DNS failure test - should be DOWN."
+    }
+]
