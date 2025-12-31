@@ -8,8 +8,12 @@ Simple Service Health Monitor that pings a list of URLs and logs their status
 * Logging function with timestamps and statues
 * Alert if a service is currently down
 
+## How to use
 
-## Todo
-* How to install dependencies.
-* How to run the script.
-* Why you chose a specific library for making HTTP requests.
+```python
+pip install -r requirements.txt
+python .\Scripts\checker.py
+```
+
+## Functionality
+we use `requests` to make http requests and get their status code, we then alert the user via console if a service is down, results are saved in `Logs/checks.log`
